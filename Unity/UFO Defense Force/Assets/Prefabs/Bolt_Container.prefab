@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6968307845369205871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6968307845369205873}
+  - component: {fileID: 6968307845369205872}
+  - component: {fileID: -6988496567738295050}
+  m_Layer: 0
+  m_Name: Bolt_Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6968307845369205873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968307845369205871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7899342013033000205}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6968307845369205872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968307845369205871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011e36563ea5e944a8dab5eedf8a6048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+--- !u!114 &-6988496567738295050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968307845369205871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b6c6333c6514541897fa0f6f90d345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: 50
+  lowerBounds: -50
+--- !u!1001 &4315260017805286815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6968307845369205873}
+    m_Modifications:
+    - target: {fileID: 4321939632181880369, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_Name
+      value: Lazer Bolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -3168648591643254956, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+--- !u!4 &7899342013033000205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6215807144036167826, guid: 2ff3c3b93ba11604290454a3e825814c, type: 3}
+  m_PrefabInstance: {fileID: 4315260017805286815}
+  m_PrefabAsset: {fileID: 0}
