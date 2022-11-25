@@ -5,11 +5,10 @@ using UnityEngine;
 public class CollectItem : MonoBehaviour
 {
     public GameObject[] shieldPrefab;
-
     public int shieldIndex;
-    void OnDisable()
+    private void OnDisable()
     {
         Debug.Log("Obtained " + name);
-        Instantiate(shieldPrefab[shieldIndex], new Vector3(0, 0, -36), shieldPrefab[shieldIndex].transform.rotation);
+        Instantiate(shieldPrefab[shieldIndex], new Vector3(0, 0, -48), shieldPrefab[shieldIndex].transform.rotation);
     }
 }

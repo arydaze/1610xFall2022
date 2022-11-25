@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOutOfBounds : MonoBehaviour
+public class ItemOutOfBounds : MonoBehaviour
 {
+    public GameObject[] shieldPrefab;
+    public int shieldIndex;
     public float topBounds = 70.0f;
     public float lowerBounds = -55.0f;
-
-    void Awake()
-    {
-        Time.timeScale = 1;
-    }
-
     void Update()
     {
         if(transform.position.z > topBounds)
@@ -20,9 +16,9 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if(transform.position.z < lowerBounds)
         {
-            Debug.Log("Game Over!");
             Destroy(gameObject);
-            Time.timeScale = 0;
+            Debug.Log("Obtained " + name);
+            Instantiate(shieldPrefab[shieldIndex], new Vector3(0, 0, -48), shieldPrefab[shieldIndex].transform.rotation);
         }
     }
 }

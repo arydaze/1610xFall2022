@@ -14,10 +14,6 @@ public class EnemySpawnManager : MonoBehaviour
     {
         InvokeRepeating("SpawnRandomUFO",startDelay,spawnInterval);
     }
-    void Update()
-    {
-    
-    }
 
     void SpawnRandomUFO()
     {

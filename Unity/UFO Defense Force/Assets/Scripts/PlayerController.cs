@@ -33,12 +33,5 @@ public class PlayerController : MonoBehaviour
             // Create lazer bolt at blaster transform position with bolt rotation
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
-
-        
-    }
-    // Delete any object with a trigger that hits the player
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
     }
 }
