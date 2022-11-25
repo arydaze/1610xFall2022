@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 3977039671690506770}
   - component: {fileID: 8659795965309352768}
   - component: {fileID: 4528306658058558467}
-  - component: {fileID: 5589662418443427667}
-  - component: {fileID: 3552116356063365359}
+  - component: {fileID: -6342633636375431426}
+  - component: {fileID: -7858181926483587212}
+  - component: {fileID: 5106594424823435432}
   m_Layer: 0
   m_Name: UFO_Mothership
   m_TagString: Untagged
@@ -112,8 +113,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6988665cbe231214b822a5d9ab4a7f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
---- !u!54 &5589662418443427667
+  speed: 5
+--- !u!114 &-6342633636375431426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697442316690906440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b6c6333c6514541897fa0f6f90d345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: 70
+  lowerBounds: -55
+--- !u!54 &-7858181926483587212
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,11 +140,11 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3552116356063365359
+--- !u!114 &5106594424823435432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,8 +153,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7697442316690906440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d54115c14988f9649b544142f52df8ff, type: 3}
+  m_Script: {fileID: 11500000, guid: f66fbf86d714dff4d95b7990c383dfc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  playerDeath: -23
