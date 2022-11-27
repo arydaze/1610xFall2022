@@ -5,10 +5,10 @@ using UnityEngine;
 public class ShieldDrop : MonoBehaviour
 {
     public GameObject[] shieldPrefab;
-    private float spawnRangeX = 100f;
+    private float spawnRangeX = 90f;
     private float spawnPosZ = 65f;
     private float startDelay = 4f;
-    private float spawnInterval = 3f;
+    private float spawnInterval = 10f;
 
     void Start()
     {
